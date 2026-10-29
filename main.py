@@ -15,4 +15,7 @@ table.heading('last_name', text = 'Surname')
 table.heading('email', text = 'Email')
 table.pack()
 
+# insert any value into a table
+table.insert(parent = '', index = 0, values = ('Ismail', 'Surn', 'ismailsurn@bexind.com'))
+
 window.mainloop()
