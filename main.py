@@ -2,10 +2,12 @@ import tkinter as tk
 from tkinter import ttk
 from random import choice
 
+#basic start for making window sized 500x300
 window = tk.Tk()
 window.geometry('500x300')
 window.title('LoginTable')
 
+#just names
 first_names = ['Muhammad', 'Isa', 'Omar', 'Bob', 'Nastya', 'Andrew', 'Daniel', 'Yusuf', 'David', 'Seo-ah']
 last_names = ['Ibrahimovic', 'Qadir', 'Othman', 'Omar', 'Niazi', 'Nasir', 'Moghadam', 'Mirza', 'Harroun', 'Hai']
 
